@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfil"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/cv"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"/>
+    <TextView
+        style="@style/TextStyle.Title"
+        android:text="@string/my_name"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:text="@string/email"
+        android:textAlignment="center"
+        style="@style/TextStyle.email"
+        android:textStyle="bold"
+        />
+    </LinearLayout>
+</ScrollView>

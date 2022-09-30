@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/imgDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    tools:src="@tools:sample/avatars"/>
+        </FrameLayout>
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/TextStyle.Title"
+            android:text="@string/nama_buah"
+            />
+        <TextView
+            android:id="@+id/tvDeskripsi"
+            style="@style/TextStyle.Deskripsi"
+            android:text="@string/detile"/>
+        <TextView
+            style="@style/TextStyle.Deskripsi"
+            android:textAlignment="center"
+            android:text="@string/sumber"/>
+        </LinearLayout>
+
+</ScrollView>

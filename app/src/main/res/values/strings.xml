@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aplikasi List Buah</string>
+    <string name="nama_buah">Nama Buah</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="detile">Detile</string>
+    <string name="my_name">Azkia Ajmal Fairuz</string>
+    <string name="email">azkiajmal@gmail.com</string>
+    <string name="home">Home</string>
+    <string name="sumber">Sumber Wikipedia</string>
+</resources>
